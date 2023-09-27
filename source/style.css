@@ -1,0 +1,106 @@
+:root {
+  --lopi-primary: #053b50;
+  --lopi-secondary: #ffd601;
+  --lopi-third: #176b87;
+  --lopi-white: #fbfbfb;
+  --lopi-black: #252525;
+}
+
+/* * {
+  padding: 0px;
+  margin: 0px;
+} */
+
+.bg-lopi-primary {
+  background-color: var(--lopi-primary) !important;
+}
+
+.bg-lopi-secondary {
+  background-color: var(--lopi-secondary) !important;
+}
+
+.bg-lopi-third {
+  background-color: var(--lopi-third) !important;
+}
+
+.bg-lopi-white {
+  background-color: var(--lopi-white) !important;
+}
+
+.bg-lopi-black {
+  background-color: var(--lopi-black) !important;
+}
+
+.text-lopi-primary {
+  color: var(--lopi-primary) !important;
+}
+
+.text-lopi-secondary {
+  color: var(--lopi-secondary) !important;
+}
+
+.text-lopi-third {
+  color: var(--lopi-third) !important;
+}
+
+.text-lopi-white {
+  color: var(--lopi-white) !important;
+}
+
+.text-lopi-black {
+  color: var(--lopi-black) !important;
+}
+
+/* Main CSS */
+
+.lopi-navbar-logo img {
+  width: 100px;
+}
+
+.lopi-footer-logo img {
+  width: 100px;
+}
+
+.lopi-footer-sosmed img {
+  width: 25px;
+}
+
+.lopi-copyright-footer {
+  background-color: var(--lopi-black);
+  color: var(--lopi-white);
+  text-align: center;
+}
+
+.lopi-btn-primary {
+  background-color: var(--lopi-primary) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 5px 30px !important;
+  font-size: large !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.lopi-btn-primary:hover {
+  background-color: var(--lopi-third) !important;
+}
+
+.lopi-header-primary {
+  font-size: xx-large !important;
+  font-weight: 900 !important;
+}
+
+.lopi-caption {
+  font-size: large !important;
+}
+
+@media screen and (max-width: 600px) {
+  .offcanvas-body {
+    background-color: var(--lopi-third) !important;
+  }
+  /* 
+  .offcanvas-body li {
+    padding: 5px 0px;
+  } */
+}
